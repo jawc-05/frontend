@@ -31,3 +31,26 @@ const carroDoJoão2 = new Carro("Fiesta", "Ford", 2020, 2019)
 const carroDaMaria2 = new Carro("Ka", "Ford", 2016, 2015)
 
 console.log(carroDoJoão2, carroDaMaria2)
+
+const nome = "jawc"
+const idade = 20
+const isMaiorDeiDade= true
+const conhecimentos = ["java", "springboot", "restAPI"]
+
+const pessoa = {
+    nome: nome,
+    idade: idade,
+    isMaiorDeiDade: isMaiorDeiDade, 
+    conhecimentos: conhecimentos
+}
+
+console.log(pessoa.nome)
+pessoa.sobrenome=null
+
+if(pessoa.sobrenome){
+    console.log("a pessoa possui um sobrenome")
+}
+
+if ('sobrenome' in pessoa){
+    console.log("sim tem sobrenome")
+}
